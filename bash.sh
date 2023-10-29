@@ -26,7 +26,6 @@ vagrant init ubuntu/focal64
      slave.vm.provision "shell", inline: <<-SHELL
      sudo apt-get update && sudo apt-get upgrade -y
      sudo apt-get install -y avahi daemon libnss-mdns
-     sudo sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config
      SHELL
     end
 
