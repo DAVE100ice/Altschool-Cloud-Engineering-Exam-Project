@@ -32,4 +32,4 @@
     command: chmod +x ~/laravel-slave.sh
 
 - name: Run Bash Script 
-    command: bash laravel-slave.sh  David12345 Estherubi < /dev/null     
+    command: bash laravel-slave.sh  David12345 Estherubi      
