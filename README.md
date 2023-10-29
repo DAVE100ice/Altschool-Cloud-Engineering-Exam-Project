@@ -25,22 +25,22 @@
    - laravel-slave.sh -  This file basically installs the whole laravel application and deploys the laravel application with Lamp (Linux, Apache, MYSQL, PHP)
 
 
-   - Bash.sh -  This just spins up our *Master* and ***Slave*** Machine
+   - Bash.sh -  This  spins up our *Master* and ***Slave*** Machine
 
 
-   - Laravel-Master.sh - It's Basically helps us run or deploy laravel on the ***Master*** *Node*
+   - Laravel-Master.sh - It helps us run or deploy laravel on the ***Master*** *Node*
  
 
  - [How to run the Repository]()
 
 
-    - this script is very readable and reuseable because of that it is flexible.
+    - This script is very readable, reuse-able and flexible.
       
   
     - The laravel-master.sh file is to run when the master machine is up
 
 
-    - To run this script you will need to consider just 4 things
+    - To run this script you will need to consider just 3 things
 
 
        1. MYSQL Database
