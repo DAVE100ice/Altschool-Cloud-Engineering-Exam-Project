@@ -26,8 +26,6 @@
      slave.vm.provision "shell", inline: <<-SHELL
      sudo apt-get update && sudo apt-get upgrade -y
      sudo apt install sshpass -y
-     sudo sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config
-     sudo systemctl restart sshd 
      sudo apt-get install -y avahi daemon libnss-mdns
      SHELL
     end
@@ -39,4 +37,4 @@
     end
  end 
  
-eof 
+ 
