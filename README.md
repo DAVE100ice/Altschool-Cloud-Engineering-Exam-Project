@@ -19,7 +19,7 @@
  - [Explaining different sections in the repository]()
 
 
-   - Ansible-Playbook - Ansible-Playbook: There are files directory inside ansible playbook, and inside the file directory, there’s another file called Laravel-slave.sh. There’s also the ansible.cfg, the inventory and site-yaml inside the ansible playbook. The ansible.cfg helps to hold the configuration of ansible, while the inventory holds the target machine IP address which is the (salve machine). The site-yaml copies the cron job, copies the file, changes the command of the file and runs or executes Laravel script.
+   - Ansible-Playbook - Ansible-Playbook: There is a files directory inside ansible playbook, and inside the file directory, there’s another file called Laravel-slave.sh. There’s also the ansible.cfg, the inventory and site-yaml inside the ansible playbook. The ansible.cfg helps to hold the configuration of ansible, while the inventory holds the target machine IP address which is the (salve machine). The site-yaml copies the cron job, copies the file, changes the command of the file and runs or executes Laravel script.
 
 
    - laravel-slave.sh -  This file basically installs the whole laravel application and deploys the laravel application with Lamp (Linux, Apache, MYSQL, PHP)
